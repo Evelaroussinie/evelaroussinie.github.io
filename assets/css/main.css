@@ -61,9 +61,9 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 }
  
 a.button-solid:link, .button-solid:visited {
-    border-color:#34cdf1;
+    border-color:#fbc6a4;
     color: #000;
-    background-color: #34cdf1;
+    background-color: #fbc6a4;
 } 
  
 a.button-solid:hover, .button-solid:active {
@@ -105,8 +105,8 @@ a.fancy-link:hover, a.fancy-link:active {
 }
 
 a.fancy-link:link, a.fancy-link:visited { 
-    color: #34cdf1; 
-    border-bottom-color:#34cdf1
+    color: #fbc6a4; 
+    border-bottom-color:#fbc6a4
 }
 
 a.fancy-link:hover, a.fancy-link:active { 
@@ -146,8 +146,9 @@ a.fancy-link:hover, a.fancy-link:active {
 /* ====== INNER FLEXBOX COLUMN: 1 COLUMN EVERY SCREEN ======= */
 
 .container-flexbox .item-1 { 
-	width: 100%;
-    padding: 1% 6% 0 6%;
+    margin-top: auto;
+	width: 120%;
+    padding: 1% 6%  6%;
     text-align: center; 
 }
 
@@ -209,7 +210,7 @@ img.image-circle {
 }
 
 .container-flexbox .item-1 h2 {
-    color: #34cdf1;
+    color: #fbc6a4;
     line-height: 1.2; margin-bottom: 20px;
     letter-spacing:-1px;
     font-weight: 600;
@@ -237,7 +238,7 @@ img.image-circle {
 .container-flexbox .item-2 h3,
 .container-flexbox .item-3 h3 {
     line-height: 1.2; margin-bottom: 12px;
-    color:#34cdf1
+    color:#fbc6a4
 }
 
 /* Centre-align text within two, three and four columns on mobiles */
@@ -273,7 +274,7 @@ img.image-circle {
 /* All screens */
 .container-contact-form { 
 	text-align: center; 
-	background-color: #183153
+	background-color: #fbc6a4;
 }
 
 /* Desktop */
@@ -359,13 +360,13 @@ img.image-circle {
 #contact-form input, #contact-form textarea {
 	padding: 10px 12px;
 	border: 2px solid rgb(49,145,131);
-	background-color: #f0f0f0;
+	background-color: #b6c9f0;
 	border-radius: 5px;
 }
 
 #contact-form input:focus,
 #contact-form textarea:focus {
-	background-color: #fff;
+	background-color: #b6c9f0;
 }
 
 #contact-form.flex-row .item-btn { width: 26% }
@@ -377,15 +378,15 @@ img.image-circle {
 	font-weight: bold;
     padding: 18px 28px;
     font-size: 18px;
-    border-color:#34cdf1;
+    border-color:#b6c9f0;
     color: #000;
-    background-color: #34cdf1;
+    background-color: #b6c9f0;
 }
 
 
 #contact-form #btn-submit:hover, 
 #contact-form #btn-submit:active { 
-    background-color: red;
+    background-color: rgb(0, 0, 0);
     color: #fff
 }
 
