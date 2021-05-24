@@ -92,7 +92,7 @@
 /* on mobiles, prevent scrolling outside flyout menu */
 .no-scroll { overflow: hidden }
 
-.menu-drop-shadow { box-shadow: 0 1px 10px #888 }
+.menu-drop-shadow { box-shadow: 0 1px 10px #515e7b }
 
 /* ======= DESKTOP MENU ======= */
 
@@ -180,7 +180,7 @@
 
 /* drop shadow border at left of fly-out menu */
 .flyout-menu {
-    box-shadow: 0px 1px 10px #888 
+    box-shadow: 0px 1px 10px #515e7b
 }
 
 /* list of links on flyout menu */
